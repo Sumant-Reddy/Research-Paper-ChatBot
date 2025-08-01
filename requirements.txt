@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-google-genai
+chromadb
+pdfplumber
+python-dotenv
+arxiv
+requests
