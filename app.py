@@ -331,7 +331,7 @@ with col2:
                 <label class='qa-label' style='font-size:1.1em; font-weight:500;'>Ask a question:</label>
         """, unsafe_allow_html=True
     )
-    question1 = st.text_input("", value=question, key="centered_question_input", label_visibility="collapsed")
+    question1 = st.text_input("Question 1", value=question, key="centered_question_input", label_visibility="collapsed")
     st.markdown("</div>", unsafe_allow_html=True)
     run_qa1 = st.button("Run QA", key="run_qa_btn", help="Click to run QA on selected sections", type="primary")
     st.markdown("</div>", unsafe_allow_html=True)
@@ -390,7 +390,7 @@ with col2:
                     <label class='qa-label' style='font-size:1.1em; font-weight:500;'>Ask another question:</label>
             """, unsafe_allow_html=True
         )
-        question2 = st.text_input("", key="second_question_input", label_visibility="collapsed")
+        question2 = st.text_input("Question 2", key="second_question_input", label_visibility="collapsed")
         st.markdown("</div>", unsafe_allow_html=True)
         run_qa2 = st.button("Run QA for Question 2", key="run_qa_btn2", help="Click to run QA on selected sections", type="primary")
         st.markdown("</div>", unsafe_allow_html=True)
