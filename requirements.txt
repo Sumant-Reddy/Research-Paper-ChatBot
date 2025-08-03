@@ -6,3 +6,5 @@ pdfplumber
 python-dotenv
 arxiv
 requests
+langchain_community
+chromadb
