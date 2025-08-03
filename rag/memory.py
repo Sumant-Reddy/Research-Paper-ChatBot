@@ -1,4 +1,5 @@
 from langchain.memory import ConversationBufferMemory
 
 def get_chat_memory():
-    return ConversationBufferMemory(return_messages=True)
+    # Use the latest recommended arguments for ConversationBufferMemory
+    return ConversationBufferMemory()

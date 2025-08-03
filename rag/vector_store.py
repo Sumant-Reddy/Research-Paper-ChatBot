@@ -1,7 +1,7 @@
 import os
 import asyncio
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 def create_or_load_vectorstore(documents):

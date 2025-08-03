@@ -11,7 +11,7 @@ def build_rag_chain(vectordb, persona="default"):
     llm = ChatGoogleGenerativeAI(
         model="models/gemini-1.5-flash",
         temperature=0.4,
-        streaming=True
+        model_kwargs={"streaming": True}
     )
 
     chain = RunnableMap({
