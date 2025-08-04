@@ -2,6 +2,7 @@ streamlit
 langchain
 langchain-google-genai
 chromadb==0.4.21
+langchain_community
 pdfplumber
 python-dotenv
 arxiv
