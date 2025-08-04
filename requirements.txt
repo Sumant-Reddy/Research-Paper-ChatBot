@@ -7,3 +7,4 @@ pdfplumber
 python-dotenv
 arxiv
 requests
+numpy==1.26.4
