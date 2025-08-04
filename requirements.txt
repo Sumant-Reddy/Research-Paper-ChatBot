@@ -1,10 +1,8 @@
 streamlit
 langchain
 langchain-google-genai
-chromadb
+chromadb==0.4.21
 pdfplumber
 python-dotenv
 arxiv
 requests
-langchain_community
-chromadb
